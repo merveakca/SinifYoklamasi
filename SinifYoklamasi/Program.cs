@@ -16,17 +16,19 @@
             Console.WriteLine("- - - - - - - - - - - -");
             Console.WriteLine("Derse Başlamadan Önce Yapılması Gerekenler");
             Console.WriteLine(" ");
+            Console.WriteLine("Öğrenci Listesi için ------> 1");
+            Console.WriteLine("Yoklama almak için  -------> 2");
+            Console.WriteLine("Gelmeyenler Listesi için --> 3");
+            Console.WriteLine("Çıkış yapmak istiyorsanız -> 4");
+            Console.WriteLine(" ");
 
             int result = 0;
 
             while (true)
             {
-                Console.WriteLine("Öğrenci Listesi için ------> 1");
-                Console.WriteLine("Yoklama almak için  -------> 2");
-                Console.WriteLine("Gelmeyenler Listesi için --> 3");
-                Console.WriteLine("Çıkış yapmak istiyorsanız -> 4");
-                Console.WriteLine(" ");
-                Console.WriteLine("Lütfen seçtiğiniz işlemin numarasını giriniz: ");
+                
+                
+                Console.WriteLine("İşlemin numarasını giriniz: ");
                 string answer = Console.ReadLine();
 
                 if (!int.TryParse(answer, out result))
