@@ -1,4 +1,6 @@
-﻿namespace SinifYoklamasi
+﻿using System.Runtime.CompilerServices;
+
+namespace SinifYoklamasi
 {
     internal class Program
     {
